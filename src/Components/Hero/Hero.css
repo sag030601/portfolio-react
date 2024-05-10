@@ -1,70 +1,92 @@
 .hero {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
 }
 
 .hero img {
-    margin-top: 50px;
+  margin-top: 50px;
+  width: 30vw;
 }
 
 .hero h1 {
-    text-align: center;
-    width: 70%;
-    font-size: 9vw;
-    font-weight: 600;
+  text-align: center;
+  width: 70%;
+  font-size: 9vw;
+  font-weight: 600;
 }
 
 .span {
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.hero p{
-    width: 50%;
-    text-align: center;
-    font-size: 2vw;
-    line-height: 40px;
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 2vw;
+  line-height: 40px;
 }
 
 .hero-action {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    font-size: 1.5vw;
-    font-weight: 500;
-    margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 
-.hero-connect{
-    padding: 2vw 4vw;
-    border-radius: 50px;
-    background: linear-gradient(265deg, #DF8908 -5.09% , #B415FF 106.28%);
-    cursor: pointer;
-    font-size: 1.5vw;
-    font-weight: 500;
+.hero-connect {
+  padding: 2vw 4vw;
+  border-radius: 50px;
+  background: linear-gradient(265deg, #df8908 -5.09%, #b415ff 106.28%);
+  cursor: pointer;
+  font-size: 1.5vw;
+  font-weight: 500;
 }
 
-.hero-connect a{
-    text-decoration: none;
+.hero-connect a {
+  text-decoration: none;
 }
 
-.hero-resume{
-    padding: 2vw 5vw;
-    border-radius: 50px;
-    border: 2px solid #fff;
-    cursor: pointer;
-    font-size: 1.5vw;
-    font-weight: 500;
+.hero-resume {
+  padding: 2vw 5vw;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 1.5vw;
+  font-weight: 500;
 }
 
-.hero-connect:hover{
-    border: 2px solid white;
+.hero-connect:hover {
+  border: 2px solid white;
 }
 
-.hero-resume:hover{
-    border-color: #B415FF;
+.hero-resume:hover {
+  border-color: #b415ff;
+}
+
+@media screen and (max-width: 600px) {
+    .hero img {
+        width: 50vw;
+    }
+
+    .hero p {
+        width: 75%;
+        text-align: center;
+        font-size: 3vw;
+        line-height: 20px;
+    }
+    .hero-connect{
+        padding: 3vw 4vw;
+        font-size: 3vw;
+    }
+    .hero-resume{
+        padding: 3vw 6vw;
+        font-size: 3vw;
+    }
 }

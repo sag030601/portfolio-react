@@ -132,3 +132,16 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .about-skill p {
+        min-width: 10vw;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .about-achievement h1 {
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+}

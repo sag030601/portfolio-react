@@ -114,25 +114,61 @@
   transition: 0.3s;
 }
 
-.contact-submit:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
+.contact-submit:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
-
-
 
 /* Responsive */
 
-@media screen and (max-width:800px) {
-  .contact-section{
+@media screen and (max-width: 800px) {
+  .contact-section {
     flex-direction: column;
   }
 
-  .contact-right input{
-    width: 100%;
+  .contact-right input {
+    width: 80%;
   }
 
-  .contact-right textarea{
-    width: 90%;
+  .contact-right textarea {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact-title h1 {
+    padding: 0;
+    width: 50vw;
+    font-size: 8vw;
+  }
+  .contact-left {
+    width: 80vw;
+  }
+  .contact-left h1 {
+    font-size: 8vw;
+  }
+  .contact-left p {
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 3vw;
+    line-height: 24px;
+  }
+
+  .contact-right input {
+    font-size: 3vw;
+    height: 6vh;
+  }
+  .contact-right textarea {
+    font-size: 3vw;
+    height: 6vh;
+    padding: 4vw;
+  }
+
+  .contact-right label {
+    font-size: 5vw;
+  }
+
+  .contact-submit {
+    font-size: 3vw;
   }
 }

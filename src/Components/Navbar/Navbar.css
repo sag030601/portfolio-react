@@ -37,3 +37,23 @@
 .nav-connect:hover{
     transform: scale(1.05);
 }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-menu {
+        font-size: 2vw;
+    }
+    .nav-connect{
+        padding: 1.5vw 5vw;
+        font-size: 2vw;
+    }
+    .navbar img {
+        width: 20%;
+    }
+}
+
+
+  
