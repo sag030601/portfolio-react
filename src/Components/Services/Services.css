@@ -85,6 +85,27 @@
 .readMore img{
     width: 2vw;
 } 
+.github-link{
+    display: inline-block;
+}
 
+.github-link a {
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border: 1px solid white;
+    margin: 2vh 0.5vw;
+}
+
+.github-link a:hover{
+    border: 2px solid #ff00ff;
+
+}
 
 

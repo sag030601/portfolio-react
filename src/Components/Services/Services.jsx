@@ -2,6 +2,8 @@ import React from "react";
 import "./Services.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import arrow_icon from "../../assets/arrow_icon.svg";
+import { GitHub } from "@mui/icons-material";
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
 const Services = () => {
   return (
@@ -22,9 +24,15 @@ const Services = () => {
             recusandae, libero soluta a beatae laborum saepe. Minus, repellendus
             quia? dolor sit, amet consectetur adipisicing elit. Dolore, aliquid.
           </p>
-          <div className="readMore">
-            <p>Read more</p>
-            <img src={arrow_icon} alt="" />
+          <div className="github-link">
+            <a href="https://github.com/sag030601/ImageSearchApi" target="_blank" >
+              <GitHub  /> Github
+            </a>
+          </div>
+          <div className="github-link">
+            <a href="https://image-search-api.vercel.app/" target="_blank" >
+              <PlayCircleOutlineIcon/> Live Demo
+            </a>
           </div>
         </div>
         <div className="projects">
@@ -37,9 +45,10 @@ const Services = () => {
             recusandae, libero soluta a beatae laborum saepe. Minus, repellendus
             quia? dolor sit, amet consectetur adipisicing elit. Dolore, aliquid.
           </p>
-          <div className="readMore">
-            <p>Read more</p>
-            <img src={arrow_icon} alt="" />
+          <div className="github-link">
+            <a href="https://github.com/sag030601/Chat-App" target="_blank" >
+              <GitHub  /> Github
+            </a>
           </div>
         </div>
         <div className="projects">
@@ -52,9 +61,10 @@ const Services = () => {
             recusandae, libero soluta a beatae laborum saepe. Minus, repellendus
             quia? dolor sit, amet consectetur adipisicing elit. Dolore, aliquid.
           </p>
-          <div className="readMore">
-            <p>Read more</p>
-            <img src={arrow_icon} alt="" />
+          <div className="github-link">
+            <a href="https://github.com/sag030601/BookHaven" target="_blank" >
+              <GitHub  /> Github
+            </a>
           </div>
         </div>
       </div>
